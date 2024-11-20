@@ -14,6 +14,9 @@
     "author": "",
     "license": "ISC",
     "description": "",
+    "_moduleAliases": {
+        "@root": "./src"
+    },
     "dependencies": {
         "cors": "^2.8.5",
         "dotenv": "^16.4.5",
@@ -22,6 +25,7 @@
         "express-rate-limit": "^7.4.1",
         "glob": "^11.0.0",
         "helmet": "^8.0.0",
+        "module-alias": "^2.2.3",
         "mongoose": "^8.8.0",
         "morgan": "^1.10.0"
     },
@@ -41,8 +45,5 @@
         "ts-node": "^10.9.2",
         "typescript": "^5.6.3",
         "typescript-eslint": "^8.13.0"
-    },
-    "_moduleAliases":{
-        "@": "./src"
     }
 }

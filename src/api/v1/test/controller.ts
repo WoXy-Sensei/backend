@@ -1,6 +1,6 @@
 import { Response, Request } from 'express';
 import testService from './service';
-import BadRequestError from '@/errors/BadRequestError';
+import BadRequestError from '@root/errors/BadRequestError';
 
 class testController {
     async createTest(req: Request, res: Response) {

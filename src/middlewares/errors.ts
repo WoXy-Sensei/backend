@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { BaseError } from '../errors/BaseError';
+import { BaseError } from '@root/errors/BaseError';
 import { logger } from '../utils';
 
 export const errorHandler = (err: Error, req: Request, res: Response, next: NextFunction): void => {
